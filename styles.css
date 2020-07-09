@@ -32,7 +32,9 @@ li.nav-item>a.nav-link:hover {
 {
   transform: scale(1.25)
 }
-
+.active a{
+  color:rgb(122, 233, 212) !important;
+}
 .col-md-3
 {
 display: inline-block;
@@ -62,7 +64,7 @@ background-color: blue;
 
 
 
- @media screen and (max-width: 800px) {
+ @media screen and (max-width: 768px) {
   .title12 {
     visibility: hidden;
     clear: both;
@@ -72,7 +74,7 @@ background-color: blue;
     display: none;
   }
 }
-@media screen and (min-width: 800px ) {
+@media screen and (min-width: 768px ) {
   .title123 {
     visibility: hidden;
     clear: both;
